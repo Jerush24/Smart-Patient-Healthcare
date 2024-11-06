@@ -25,7 +25,7 @@ const Dashboard = () => {
 
         <iframe
           src="https://thingspeak.com/channels/2700834/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
-          title="Iframe 3"
+          title="Iframe 4"
           className="w-full h-96 border border-gray-300 rounded-lg"
         ></iframe>
       </div>
