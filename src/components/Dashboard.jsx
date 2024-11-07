@@ -8,26 +8,21 @@ const Dashboard = () => {
         <iframe 
           title='Iframe 1'
           className="w-full h-96 border border-gray-300 rounded-lg" 
-          src="https://thingspeak.com/channels/2694352/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15">
+          src="https://thingspeak.com/channels/2732869/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=temperatureDHT11&type=line">
         </iframe>
 
         <iframe 
           title='Iframe 2'
           className="w-full h-96 border border-gray-300 rounded-lg" 
-          src="https://thingspeak.com/channels/2700828/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line">
+          src="https://thingspeak.com/channels/2732869/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=temperatureDS18B20&type=line">
         </iframe>
 
         <iframe
-          src="https://thingspeak.com/channels/2700834/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+          src="https://thingspeak.com/channels/2732869/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
           title="Iframe 3"
           className="w-full h-96 border border-gray-300 rounded-lg"
         ></iframe>
 
-        <iframe
-          src="https://thingspeak.com/channels/2700834/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
-          title="Iframe 4"
-          className="w-full h-96 border border-gray-300 rounded-lg"
-        ></iframe>
       </div>
     </Layout>
   );
