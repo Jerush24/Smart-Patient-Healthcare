@@ -49,7 +49,7 @@ const LoginPage = () => {
     e.preventDefault();
     if (validateForm()) {
       // Simulate authentication
-      if (formData.email === 'jerry.ajvin@gmail.com' && formData.password === 'password') {
+      if (formData.email === 'niit@gmail.com' && formData.password === 'password') {
         // Store auth token or user data in localStorage/context if needed
         localStorage.setItem('isAuthenticated', 'true');
         navigate('/dashboard');
